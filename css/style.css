@@ -1,0 +1,94 @@
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  color: #818181;
+}
+section.module p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 100vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1 {
+ color: rgba(255, 255, 255, 0.8);
+    font-size: 45px;
+    line-height: 600px;
+    /* font-weight: 700; */
+    text-align: center;
+    /* text-transform: uppercase; */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: fantasy;
+}
+section.module.parallax-1 {
+  background-image: url("../img/demo/_small/bguKSHt.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../img/demo/_small/GuKJSVW.jpg");
+  height: 450px;
+}
+section.module.parallax-3 {
+  background-image: url("../img/demo/_small/n3iH6BM.jpg");
+  height: 450px;
+}
+
+section.module.parallax-4 {
+  background-image: url("../img/demo/_small/krUO2jz.png");
+  height: 450px;
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+    margin-bottom: 25px;  
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  /*section.module.parallax h1 {
+    font-size: 96px;
+  }*/
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+
+.jumbotron {
+    color: whitesmoke;
+    font-size: xx-large;
+    font-family: fantasy;
+    padding-top: 250px;
+}
+/*
+.jumbotron h2{
+    color:#444242;
+}*/
+
+.new {
+  color: ghostwhite;
+  text-align: center;
+  font-size: larger;
+}
